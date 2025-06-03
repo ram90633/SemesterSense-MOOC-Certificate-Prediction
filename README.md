@@ -64,13 +64,31 @@ The dataset includes:
 
 ---
 
-## 🧠 Models Performance (Sample)
+## 🤖 Model Performance Comparison
 
-| Model               | Accuracy | Precision | Recall | F1 Score |
-|--------------------|----------|-----------|--------|----------|
-| Logistic Regression| 0.82     | 0.80      | 0.81   | 0.80     |
-| Random Forest       | 0.88     | 0.87      | 0.86   | 0.87     |
-| AdaBoost            | 0.84     | 0.83      | 0.83   | 0.83     |
+This involves building and evaluating various machine learning models for classification. Below are the results of the models in terms of **Accuracy**, **Precision**, **Recall**, and **F1 Score**.
+
+### 📊 Classification Models Comparison
+
+| Model                | Accuracy  | Precision | Recall   | F1 Score |
+|---------------------|-----------|-----------|----------|----------|
+| Decision Tree        | 0.993469  | 0.983962  | 0.985333 | 0.984641 |
+| Random Forest        | 0.946061  | 0.945933  | 0.858945 | 0.895882 |
+| Logistic Regression  | 0.931710  | 0.899246  | 0.861772 | 0.879341 |
+| KNN                  | 0.894165  | 0.844411  | 0.772377 | 0.801859 |
+
+---
+
+### 🔁 Ensemble Models Comparison
+
+| Ensemble Model | Accuracy  | Precision | Recall   | F1 Score |
+|----------------|-----------|-----------|----------|----------|
+| Bagging        | 0.993416  | 0.982572  | 0.985570 | 0.984063 |
+| Stacking       | 0.954151  | 0.921734  | 0.897582 | 0.909072 |
+| AdaBoost       | 0.897579  | 0.869547  | 0.760071 | 0.803674 |
+
+The Decision Tree and Bagging models achieved the highest performance across all metrics, showing strong generalization and consistency.
+
 
 
 ---
